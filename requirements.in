@@ -10,6 +10,6 @@ typing-extensions==4.16.0
 microvenv
 
 # Checker for installed packages
-importlib_metadata
+importlib_metadata<8.8
 packaging
 tomli
