@@ -215,7 +215,6 @@ def test_requirements_args(extras, expected):
     actual = []
 
     def run_process(args, error_message):  # noqa: ARG001
-        nonlocal actual
         actual.append(args)
 
     create_venv.run_process = run_process
